@@ -27,7 +27,8 @@ public class Array {
                         + nilai[i]);
             }
         }catch(Exception ex) {
-            System.out.println("Nilai melebihi batas index array, yaitu "+ nilai.length);
-		}
-	}
+            System.out.println("Nilai melebihi batas index array, yaitu "
+                    + nilai.length);
+        }
+    }
 }

@@ -18,6 +18,9 @@ import java.util.*;
 public class File {
     public static void main(String[] args) {
         FileInputStream file = null;
+//        file = new FileInputStream("test.txt");
+//        Scanner fileReader = new Scanner(file);
+        
         try {
             file = new FileInputStream("test.txt");
             Scanner fileReader = new Scanner(file);

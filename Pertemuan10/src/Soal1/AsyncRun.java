@@ -21,7 +21,7 @@ public class AsyncRun implements Runnable {
                 Thread.currentThread().getId());
             throw new ArithmeticException();
         } catch(Exception ex) {
-            System.out.println(ex + " handled");
+            System.out.println(ex.getClass().getName() + " handled");
         }
     }
     
@@ -35,7 +35,7 @@ public class AsyncRun implements Runnable {
         }
         catch(Exception ex)
         {
-            System.out.println(ex + " handled");
+            System.out.println(ex.getClass().getName() + " handled");
         }
     }
 }

@@ -37,20 +37,20 @@ public class Staff {
 	staffList[5] = new Volunteer ("Cliff", "321 Duds Lane", "555-7282");
         
         staffList[6] = new Commission("Risna", "009 Bandung Barat", "555-1234", 
-                "009-11-2002", 9.75, 0.2);
+                "009-11-2002", 6.25, 0.2);
         
         staffList[7] = new Commission("Suci", "109 Bandung Raya", "555-4321", 
-                "009-2002-11", 7.00, 0.3);
+                "009-2002-11", 9.75, 0.15);
 		
         ((Executive)staffList[0]).awardBonus(500.00);
         
         ((Hourly)staffList[3]).addHours (40);
         
-        ((Commission)staffList[6]).addHours(50);
-        ((Commission)staffList[6]).addSales(500);
+        ((Commission)staffList[6]).addHours(35);
+        ((Commission)staffList[6]).addSales(400);
         
-        ((Commission)staffList[7]).addHours(35);
-        ((Commission)staffList[7]).addSales(800);
+        ((Commission)staffList[7]).addHours(40);
+        ((Commission)staffList[7]).addSales(950);
     }
     
     //Pays all staff members

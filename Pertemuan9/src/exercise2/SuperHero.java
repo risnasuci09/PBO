@@ -13,7 +13,6 @@ package exercise2;
 */
 
 import java.util.*;
-//import java.lang.Comparable;
 
 abstract class SuperHero implements Comparable<SuperHero> {
     private int powerLevel;

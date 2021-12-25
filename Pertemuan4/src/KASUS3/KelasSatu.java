@@ -13,15 +13,18 @@ package KASUS3;
  */
 
 class KelasSatu {
+    //initializer block
     {
-        System.out.println(11);
+        System.out.println(11); 
     }
     
+    //static block
     static
     {
         System.out.println(2);
     }
     
+    //constructor overloading
     public KelasSatu(int i)
     {
         System.out.println(3);
